@@ -88,7 +88,7 @@
                                         <ul class="dropdown">
                                             <li><a href="{{ url('/') }}">Home</a></li>
                                             <li><a href="{{ url('/about') }}">About Us</a></li>
-                                            <li><a href="{{ url('/blog-post') }}">Blog Post</a></li>
+                                            <li><a href="{{ url('/recipe') }}">Blog Post</a></li>
                                             <li><a href="{{ url('/recipe-post') }}">Receipe Post</a></li>
                                             <li><a href="{{ url('/contact') }}">Contact</a></li>
                                             <li><a href="{{ url('/elements') }}">Elements</a></li>
@@ -96,7 +96,7 @@
                                                 <ul class="dropdown">
                                                     <li><a href="{{ url('/') }}">Home</a></li>
                                                     <li><a href="{{ url('/about') }}">About Us</a></li>
-                                                    <li><a href="{{ url('/blog-post') }}">Blog Post</a></li>
+                                                    <li><a href="{{ url('/recipe') }}">Blog Post</a></li>
                                                     <li><a href="{{ url('/recipe-post') }}">Receipe Post</a></li>
                                                     <li><a href="{{ url('/contact') }}">Contact</a></li>
                                                     <li><a href="{{ url('/elements') }}">Elements</a></li>
@@ -104,7 +104,7 @@
                                                         <ul class="dropdown">
                                                             <li><a href="{{ url('/') }}">Home</a></li>
                                                             <li><a href="{{ url('/about') }}">About Us</a></li>
-                                                            <li><a href="{{ url('/blog-post') }}">Blog Post</a></li>
+                                                            <li><a href="{{ url('/recipe') }}">Blog Post</a></li>
                                                             <li><a href="{{ url('/recipe-post') }}">Receipe Post</a></li>
                                                             <li><a href="{{ url('/contact') }}">Contact</a></li>
                                                             <li><a href="{{ url('/elements') }}">Elements</a></li>
@@ -120,7 +120,7 @@
                                                 <li class="title">Catagory</li>
                                                 <li><a href="{{ url('/') }}">Home</a></li>
                                                 <li><a href="{{ url('/about') }}">About Us</a></li>
-                                                <li><a href="{{ url('/blog-post') }}">Blog Post</a></li>
+                                                <li><a href="{{ url('/recipe') }}">Blog Post</a></li>
                                                 <li><a href="{{ url('/recipe-post') }}">Receipe Post</a></li>
                                                 <li><a href="{{ url('/contact') }}">Contact</a></li>
                                                 <li><a href="{{ url('/elements') }}">Elements</a></li>
@@ -129,7 +129,7 @@
                                                 <li class="title">Catagory</li>
                                                 <li><a href="{{ url('/') }}">Home</a></li>
                                                 <li><a href="{{ url('/about') }}">About Us</a></li>
-                                                <li><a href="{{ url('/blog-post') }}">Blog Post</a></li>
+                                                <li><a href="{{ url('/recipe') }}">Blog Post</a></li>
                                                 <li><a href="{{ url('/recipe-post') }}">Receipe Post</a></li>
                                                 <li><a href="{{ url('/contact') }}">Contact</a></li>
                                                 <li><a href="{{ url('/elements') }}">Elements</a></li>
@@ -138,7 +138,7 @@
                                                 <li class="title">Catagory</li>
                                                 <li><a href="{{ url('/') }}">Home</a></li>
                                                 <li><a href="{{ url('/about') }}">About Us</a></li>
-                                                <li><a href="{{ url('/blog-post') }}">Blog Post</a></li>
+                                                <li><a href="{{ url('/recipe') }}">Blog Post</a></li>
                                                 <li><a href="{{ url('/recipe-post') }}">Receipe Post</a></li>
                                                 <li><a href="{{ url('/contact') }}">Contact</a></li>
                                                 <li><a href="{{ url('/elements') }}">Elements</a></li>

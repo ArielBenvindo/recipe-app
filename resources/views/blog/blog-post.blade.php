@@ -88,7 +88,7 @@
                                         <ul class="dropdown">
                                             <li><a href="{{ url('/') }}">Home</a></li>
                                             <li><a href="{{ url('/about') }}">About Us</a></li>
-                                            <li><a href="{{ url('/blog-post') }}">Blog Post</a></li>
+                                            <li><a href="{{ url('/recipe') }}">Blog Post</a></li>
                                             <li><a href="{{ url('/recipe-post') }}">Receipe Post</a></li>
                                             <li><a href="{{ url('/contact') }}">Contact</a></li>
                                             <li><a href="{{ url('/elements') }}">Elements</a></li>
@@ -96,7 +96,7 @@
                                                 <ul class="dropdown">
                                                     <li><a href="{{ url('/') }}">Home</a></li>
                                                     <li><a href="{{ url('/about') }}">About Us</a></li>
-                                                    <li><a href="{{ url('/blog-post') }}">Blog Post</a></li>
+                                                    <li><a href="{{ url('/recipe') }}">Blog Post</a></li>
                                                     <li><a href="{{ url('/recipe-post') }}">Receipe Post</a></li>
                                                     <li><a href="{{ url('/contact') }}">Contact</a></li>
                                                     <li><a href="{{ url('/elements') }}">Elements</a></li>
@@ -104,7 +104,7 @@
                                                         <ul class="dropdown">
                                                             <li><a href="{{ url('/') }}">Home</a></li>
                                                             <li><a href="{{ url('/about') }}">About Us</a></li>
-                                                            <li><a href="{{ url('/blog-post') }}">Blog Post</a></li>
+                                                            <li><a href="{{ url('/recipe') }}">Blog Post</a></li>
                                                             <li><a href="{{ url('/recipe-post') }}">Receipe Post</a></li>
                                                             <li><a href="{{ url('/contact') }}">Contact</a></li>
                                                             <li><a href="{{ url('/elements') }}">Elements</a></li>
@@ -120,7 +120,7 @@
                                                 <li class="title">Catagory</li>
                                                 <li><a href="{{ url('/') }}">Home</a></li>
                                                 <li><a href="{{ url('/about') }}">About Us</a></li>
-                                                <li><a href="{{ url('/blog-post') }}">Blog Post</a></li>
+                                                <li><a href="{{ url('/recipe') }}">Blog Post</a></li>
                                                 <li><a href="{{ url('/recipe-post') }}">Receipe Post</a></li>
                                                 <li><a href="{{ url('/contact') }}">Contact</a></li>
                                                 <li><a href="{{ url('/elements') }}">Elements</a></li>
@@ -129,7 +129,7 @@
                                                 <li class="title">Catagory</li>
                                                 <li><a href="{{ url('/') }}">Home</a></li>
                                                 <li><a href="{{ url('/about') }}">About Us</a></li>
-                                                <li><a href="{{ url('/blog-post') }}">Blog Post</a></li>
+                                                <li><a href="{{ url('/recipe') }}">Blog Post</a></li>
                                                 <li><a href="{{ url('/recipe-post') }}">Receipe Post</a></li>
                                                 <li><a href="{{ url('/contact') }}">Contact</a></li>
                                                 <li><a href="{{ url('/elements') }}">Elements</a></li>
@@ -138,7 +138,7 @@
                                                 <li class="title">Catagory</li>
                                                 <li><a href="{{ url('/') }}">Home</a></li>
                                                 <li><a href="{{ url('/about') }}">About Us</a></li>
-                                                <li><a href="{{ url('/blog-post') }}">Blog Post</a></li>
+                                                <li><a href="{{ url('/recipe') }}">Blog Post</a></li>
                                                 <li><a href="{{ url('/recipe-post') }}">Receipe Post</a></li>
                                                 <li><a href="{{ url('/contact') }}">Contact</a></li>
                                                 <li><a href="{{ url('/elements') }}">Elements</a></li>
@@ -197,7 +197,7 @@
                             <div class="single-blog-area mb-80">
                                 <!-- Thumbnail -->
                                 <div class="blog-thumbnail">
-                                    <img src="img/blog-img/1.jpg" alt="">
+                                    <img src="{{$item['strMealThumb']}}" alt="">
                                     <!-- Post Date -->
                                     <div class="post-date">
                                         <a href="#"><span>05</span>April <br> 2018</a>
@@ -208,7 +208,7 @@
                                     <a href="#" class="post-title">{{$item['strMeal']}}</a>
                                     <div class="meta-data">by <a href="#">Maria Williams</a> in <a href="#">Restaurants</a>
                                     </div>
-                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum nec varius dui. Suspendisse potenti. Vestibulum ac pellentesque tortor. Aenean congue sed metus in iaculis. Cras a tortor enim. Phasellus posuere vestibulum ipsum, eget lobortis purus. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. </p>
+                                    <p></p>
                                     <a href="#" class="btn delicious-btn mt-30">Read More</a>
                                 </div>
                             </div>

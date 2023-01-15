@@ -8,7 +8,7 @@ class RecipeController
 {
     public function index()
     {
-        $response = Http::get('www.themealdb.com/api/json/v1/1/lookup.php?i=52773');
+        $response = Http::get('https://www.themealdb.com/api/json/v1/1/filter.php?c=Seafood');
         $recipes = json_decode($response);
         return view('blog.blog-post')->with('recipes', $recipes);
     }
